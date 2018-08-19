@@ -1,0 +1,981 @@
+---------------------------------------------------------------
+[ 2018-08-18T13:12:11+08:00 ] 127.0.0.1 GET /book/hot_list?token=54bdfb24e7d5436a524ded900aec7016
+[ info ] old_island.com/book/hot_list?token=54bdfb24e7d5436a524ded900aec7016 [运行时间：0.538754s][吞吐率：1.86req/s] [内存消耗：2,187.12kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'hotList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '4ea212c1-a05c-4fc0-badd-95998a5ab594',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/hot_list' => '',
+  'token' => '54bdfb24e7d5436a524ded900aec7016',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->hotList[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001532s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.096373s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000735s ]
+[ error ] [8]未定义变量: book_datas[D:\code_dir\old_island\application\common\Book.php:74]
+[ log ] 2018-08-18 13:12:11 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：74 错误信息：Undefined variable: book_datas
+---------------------------------------------------------------
+[ 2018-08-18T13:12:33+08:00 ] 127.0.0.1 GET /book/hot_list?token=54bdfb24e7d5436a524ded900aec7016
+[ info ] old_island.com/book/hot_list?token=54bdfb24e7d5436a524ded900aec7016 [运行时间：0.535163s][吞吐率：1.87req/s] [内存消耗：2,187.37kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'hotList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '9e138758-b0d3-4734-9e56-e2cfcb741ce7',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/hot_list' => '',
+  'token' => '54bdfb24e7d5436a524ded900aec7016',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->hotList[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001717s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.047651s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000788s ]
+[ error ] [8]未定义变量: book_datas[D:\code_dir\old_island\application\common\Book.php:74]
+[ log ] 2018-08-18 13:12:33 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：74 错误信息：Undefined variable: book_datas
+---------------------------------------------------------------
+[ 2018-08-18T13:50:25+08:00 ] 127.0.0.1 GET /book/26745030/short_comment?token=54bdfb24e7d5436a524ded900aec7016
+[ info ] old_island.com/book/26745030/short_comment?token=54bdfb24e7d5436a524ded900aec7016 [运行时间：0.165597s][吞吐率：6.04req/s] [内存消耗：2,134.37kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'shortComment',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '095b8145-de85-453f-8e74-e5e49da8203d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/26745030/short_comment' => '',
+  'token' => '54bdfb24e7d5436a524ded900aec7016',
+  'book_id' => '26745030',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->shortComment[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002308s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.094510s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000709s ]
+[ error ] [0]类型错误: Too few arguments to function app\common\Book::getShortComment(), 0 passed in D:\code_dir\old_island\application\index\controller\Book.php on line 31 and exactly 1 expected[D:\code_dir\old_island\application\common\Book.php:95]
+[ log ] 2018-08-18 13:50:25 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：95 错误信息：Type error: Too few arguments to function app\common\Book::getShortComment(), 0 passed in D:\code_dir\old_island\application\index\controller\Book.php on line 31 and exactly 1 expected
+---------------------------------------------------------------
+[ 2018-08-18T13:50:50+08:00 ] 127.0.0.1 GET /book/26745030/short_comment?token=54bdfb24e7d5436a524ded900aec7016
+[ info ] old_island.com/book/26745030/short_comment?token=54bdfb24e7d5436a524ded900aec7016 [运行时间：0.124790s][吞吐率：8.01req/s] [内存消耗：2,136.24kb] [文件加载：55]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'shortComment',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'ca0ca435-ffbc-42c9-9b2a-fa0f4450da6c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/26745030/short_comment' => '',
+  'token' => '54bdfb24e7d5436a524ded900aec7016',
+  'book_id' => '26745030',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->shortComment[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012106s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.051241s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000733s ]
+[ error ] [8]Use of undefined constant param - assumed 'param'[D:\code_dir\old_island\application\index\controller\Book.php:31]
+[ log ] 2018-08-18 13:50:50 错误文件：D:\code_dir\old_island\application\index\controller\Book.php 错误行数：31 错误信息：Use of undefined constant param - assumed 'param'
+---------------------------------------------------------------
+[ 2018-08-18T15:34:21+08:00 ] 127.0.0.1 POST /book/add/short_comment?token=1492e62e35b5dee8a718066ce36faec1
+[ info ] old_island.com/book/add/short_comment?token=1492e62e35b5dee8a718066ce36faec1 [运行时间：0.182574s][吞吐率：5.48req/s] [内存消耗：2,158.16kb] [文件加载：56]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'addShortComment',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '305',
+  'content-type' => 'multipart/form-data; boundary=--------------------------195217356948080175574569',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'c317f662-ed3f-4734-af5c-34b1cbccb08e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/add/short_comment' => '',
+  'token' => '1492e62e35b5dee8a718066ce36faec1',
+  'book_id' => '2',
+  'content' => '呜呜呜呜呜呜呜呜呜呜呜呜',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->addShortComment[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010614s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.109321s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000655s ]
+[ error ] [8]未定义数组索引: bok_id[D:\code_dir\old_island\application\common\Book.php:137]
+[ log ] 2018-08-18 15:34:21 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：137 错误信息：Undefined index: bok_id
+---------------------------------------------------------------
+[ 2018-08-18T18:54:31+08:00 ] 127.0.0.1 GET /book/search?token=a9ceac1f4380824af5341c8f52f20e99&q=12&start=1
+[ info ] old_island.com/book/search?token=a9ceac1f4380824af5341c8f52f20e99&q=12&start=1 [运行时间：0.176765s][吞吐率：5.66req/s] [内存消耗：2,160.84kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'search',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '405e829f-68d3-44c1-90e8-532baea7ef4e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/search' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'q' => '12',
+  'start' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->search[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001966s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.114364s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000590s ]
+[ error ] [0]类型错误: Too few arguments to function app\common\Book::getSearchBook(), 0 passed in D:\code_dir\old_island\application\index\controller\Book.php on line 91 and exactly 1 expected[D:\code_dir\old_island\application\common\Book.php:192]
+[ log ] 2018-08-18 18:54:31 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：192 错误信息：Type error: Too few arguments to function app\common\Book::getSearchBook(), 0 passed in D:\code_dir\old_island\application\index\controller\Book.php on line 91 and exactly 1 expected
+---------------------------------------------------------------
+[ 2018-08-18T18:54:40+08:00 ] 127.0.0.1 GET /book/search?token=a9ceac1f4380824af5341c8f52f20e99&q=12&start=1
+[ info ] old_island.com/book/search?token=a9ceac1f4380824af5341c8f52f20e99&q=12&start=1 [运行时间：0.112869s][吞吐率：8.86req/s] [内存消耗：2,161.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'search',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'eb98ddad-082d-44e3-bda7-ecec36f0bdfc',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/search' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'q' => '12',
+  'start' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->search[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001664s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.050144s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000725s ]
+[ error ] [0]类型错误: Too few arguments to function app\common\Book::getSearchBook(), 0 passed in D:\code_dir\old_island\application\index\controller\Book.php on line 91 and exactly 1 expected[D:\code_dir\old_island\application\common\Book.php:192]
+[ log ] 2018-08-18 18:54:40 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：192 错误信息：Type error: Too few arguments to function app\common\Book::getSearchBook(), 0 passed in D:\code_dir\old_island\application\index\controller\Book.php on line 91 and exactly 1 expected
+---------------------------------------------------------------
+[ 2018-08-18T18:55:09+08:00 ] 127.0.0.1 GET /book/search?token=a9ceac1f4380824af5341c8f52f20e99&q=12&start=1
+[ info ] old_island.com/book/search?token=a9ceac1f4380824af5341c8f52f20e99&q=12&start=1 [运行时间：0.264648s][吞吐率：3.78req/s] [内存消耗：2,163.51kb] [文件加载：55]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'search',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '2d9ba5fd-4fa0-49ac-9f65-386187906b60',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/search' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'q' => '12',
+  'start' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->search[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001491s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.200705s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000566s ]
+[ error ] [8]未定义数组索引: count[D:\code_dir\old_island\application\common\Book.php:195]
+[ log ] 2018-08-18 18:55:09 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：195 错误信息：Undefined index: count
+---------------------------------------------------------------
+[ 2018-08-18T19:24:49+08:00 ] 127.0.0.1 GET /book/26745030/detail?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/book/26745030/detail?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.217948s][吞吐率：4.59req/s] [内存消耗：2,186.48kb] [文件加载：56]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'bookDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'bd101aaf-05f1-4590-9de9-08189acbfeb4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/26745030/detail' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'book_id' => '26745030',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->bookDetail[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001655s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.083085s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000669s ]
+[ error ] [8]未定义数组索引: books[D:\code_dir\old_island\application\common\Book.php:250]
+[ log ] 2018-08-18 19:24:49 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：250 错误信息：Undefined index: books
+---------------------------------------------------------------
+[ 2018-08-18T19:25:01+08:00 ] 127.0.0.1 GET /book/26745030/detail?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/book/26745030/detail?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.265116s][吞吐率：3.77req/s] [内存消耗：2,186.73kb] [文件加载：56]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'bookDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '27431dfa-3b5f-468c-94a3-4a2da4d2946d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/book/26745030/detail' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'book_id' => '26745030',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Book->bookDetail[ D:\code_dir\old_island\application\index\controller\Book.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001762s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.131705s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001846s ]
+[ error ] [8]未定义数组索引: books[D:\code_dir\old_island\application\common\Book.php:250]
+[ log ] 2018-08-18 19:25:01 错误文件：D:\code_dir\old_island\application\common\Book.php 错误行数：250 错误信息：Undefined index: books
+---------------------------------------------------------------
+[ 2018-08-18T19:51:13+08:00 ] 127.0.0.1 POST /like?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.182003s][吞吐率：5.49req/s] [内存消耗：2,145.71kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'postLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '268',
+  'content-type' => 'multipart/form-data; boundary=--------------------------975992128052782394662435',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'a9ceba2a-3699-4ab8-a735-1ea3b20ed8b7',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '1',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->postLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002300s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.104533s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000797s ]
+[ error ] [0]类型错误: Too few arguments to function app\index\model\UserPraise::postLike(), 0 passed in D:\code_dir\old_island\application\index\controller\Like.php on line 23 and exactly 2 expected[D:\code_dir\old_island\application\index\model\UserPraise.php:30]
+[ log ] 2018-08-18 19:51:13 错误文件：D:\code_dir\old_island\application\index\model\UserPraise.php 错误行数：30 错误信息：Type error: Too few arguments to function app\index\model\UserPraise::postLike(), 0 passed in D:\code_dir\old_island\application\index\controller\Like.php on line 23 and exactly 2 expected
+---------------------------------------------------------------
+[ 2018-08-18T19:51:22+08:00 ] 127.0.0.1 POST /like?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.179429s][吞吐率：5.57req/s] [内存消耗：2,145.96kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'postLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '268',
+  'content-type' => 'multipart/form-data; boundary=--------------------------365865997751718821228359',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '486ae5f8-a274-40f7-b1d9-5736d273d2b1',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '1',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->postLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001602s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.105663s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000796s ]
+[ error ] [0]类型错误: Too few arguments to function app\index\model\UserPraise::postLike(), 0 passed in D:\code_dir\old_island\application\index\controller\Like.php on line 23 and exactly 2 expected[D:\code_dir\old_island\application\index\model\UserPraise.php:30]
+[ log ] 2018-08-18 19:51:22 错误文件：D:\code_dir\old_island\application\index\model\UserPraise.php 错误行数：30 错误信息：Type error: Too few arguments to function app\index\model\UserPraise::postLike(), 0 passed in D:\code_dir\old_island\application\index\controller\Like.php on line 23 and exactly 2 expected
+---------------------------------------------------------------
+[ 2018-08-18T20:03:40+08:00 ] 127.0.0.1 POST /like/cancel?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like/cancel?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.181544s][吞吐率：5.51req/s] [内存消耗：2,151.98kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'cancelLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '272',
+  'content-type' => 'multipart/form-data; boundary=--------------------------613777078650727647309973',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '01d585c3-3b3f-4a0e-845d-ffe0cbbc1204',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like/cancel' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '10000',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->cancelLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010474s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.066684s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.024852s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 LIMIT 1 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 [ RunTime:0.000638s ]
+[ error ] [0]没有条件不会执行删除操作[D:\code_dir\old_island\thinkphp\library\think\db\Query.php:2843]
+[ log ] 2018-08-18 20:03:40 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：2843 错误信息：delete without condition
+---------------------------------------------------------------
+[ 2018-08-18T20:04:05+08:00 ] 127.0.0.1 POST /like/cancel?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like/cancel?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.156767s][吞吐率：6.38req/s] [内存消耗：2,151.98kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'cancelLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '272',
+  'content-type' => 'multipart/form-data; boundary=--------------------------489392333758753539752097',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'd7d441db-ec99-4b09-9f97-73635da30a04',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like/cancel' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '10000',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->cancelLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001610s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.066366s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.025450s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 LIMIT 1 [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 [ RunTime:0.000399s ]
+[ error ] [0]没有条件不会执行删除操作[D:\code_dir\old_island\thinkphp\library\think\db\Query.php:2843]
+[ log ] 2018-08-18 20:04:05 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：2843 错误信息：delete without condition
+---------------------------------------------------------------
+[ 2018-08-18T20:04:10+08:00 ] 127.0.0.1 POST /like/cancel?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like/cancel?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.151737s][吞吐率：6.59req/s] [内存消耗：2,151.98kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'cancelLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '272',
+  'content-type' => 'multipart/form-data; boundary=--------------------------405532379336514046375375',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '926d908f-0f20-48f7-a84e-15c40686b73f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like/cancel' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '10000',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->cancelLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001581s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.055857s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.027697s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 [ RunTime:0.000887s ]
+[ error ] [0]没有条件不会执行删除操作[D:\code_dir\old_island\thinkphp\library\think\db\Query.php:2843]
+[ log ] 2018-08-18 20:04:10 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：2843 错误信息：delete without condition
+---------------------------------------------------------------
+[ 2018-08-18T20:04:18+08:00 ] 127.0.0.1 POST /like/cancel?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like/cancel?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.302908s][吞吐率：3.30req/s] [内存消耗：2,152.23kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'cancelLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '272',
+  'content-type' => 'multipart/form-data; boundary=--------------------------533121170876584408964979',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'af2ba7e7-a5c6-462a-9581-ad4de01e0120',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like/cancel' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '10000',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->cancelLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001448s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.211659s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.025086s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 [ RunTime:0.000374s ]
+[ error ] [0]没有条件不会执行删除操作[D:\code_dir\old_island\thinkphp\library\think\db\Query.php:2843]
+[ log ] 2018-08-18 20:04:18 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：2843 错误信息：delete without condition
+---------------------------------------------------------------
+[ 2018-08-18T20:05:05+08:00 ] 127.0.0.1 POST /like/cancel?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like/cancel?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.250381s][吞吐率：3.99req/s] [内存消耗：2,152.23kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'cancelLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '272',
+  'content-type' => 'multipart/form-data; boundary=--------------------------886785059615200450272569',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '56b41c58-266d-4aec-83f9-5d307541f8d9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like/cancel' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '10000',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->cancelLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001392s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.157518s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.024310s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 [ RunTime:0.000365s ]
+[ error ] [0]没有条件不会执行删除操作[D:\code_dir\old_island\thinkphp\library\think\db\Query.php:2843]
+[ log ] 2018-08-18 20:05:05 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：2843 错误信息：delete without condition
+---------------------------------------------------------------
+[ 2018-08-18T20:06:01+08:00 ] 127.0.0.1 POST /like/cancel?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like/cancel?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.194319s][吞吐率：5.15req/s] [内存消耗：2,149.22kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'cancelLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '272',
+  'content-type' => 'multipart/form-data; boundary=--------------------------247641224471874317776651',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'f38c3957-ecd0-4005-97f1-edb397911d68',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like/cancel' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '10000',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->cancelLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002059s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.098094s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.024264s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 LIMIT 1 [ RunTime:0.000602s ]
+[ error ] [0]没有条件不会执行删除操作[D:\code_dir\old_island\thinkphp\library\think\db\Query.php:2843]
+[ log ] 2018-08-18 20:06:01 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：2843 错误信息：delete without condition
+---------------------------------------------------------------
+[ 2018-08-18T20:06:10+08:00 ] 127.0.0.1 POST /like/cancel?token=a9ceac1f4380824af5341c8f52f20e99
+[ info ] old_island.com/like/cancel?token=a9ceac1f4380824af5341c8f52f20e99 [运行时间：0.202936s][吞吐率：4.93req/s] [内存消耗：2,149.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'like',
+    2 => 'cancelLike',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '272',
+  'content-type' => 'multipart/form-data; boundary=--------------------------509611330218806228661081',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'ab0059e6-5234-458c-a214-73ffaac35559',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/like/cancel' => '',
+  'token' => 'a9ceac1f4380824af5341c8f52f20e99',
+  'art_id' => '10000',
+  'type' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Like->cancelLike[ D:\code_dir\old_island\application\index\controller\Like.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001444s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.103376s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.033811s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 10000  AND `type` = 100 LIMIT 1 [ RunTime:0.000723s ]
+[ error ] [0]没有条件不会执行删除操作[D:\code_dir\old_island\thinkphp\library\think\db\Query.php:2843]
+[ log ] 2018-08-18 20:06:10 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：2843 错误信息：delete without condition
+---------------------------------------------------------------
+[ 2018-08-18T21:57:23+08:00 ] 127.0.0.1 POST /save/user_info
+[ info ] old_island.com/save/user_info [运行时间：0.029247s][吞吐率：34.19req/s] [内存消耗：790.30kb] [文件加载：31]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [2]strpos() expects parameter 1 to be string, array given[D:\code_dir\old_island\thinkphp\library\think\Route.php:1489]
+[ log ] 2018-08-18 21:57:23 错误文件：D:\code_dir\old_island\thinkphp\library\think\Route.php 错误行数：1489 错误信息：strpos() expects parameter 1 to be string, array given
+---------------------------------------------------------------
+[ 2018-08-18T21:57:39+08:00 ] 127.0.0.1 POST /save/user_info
+[ info ] old_island.com/save/user_info [运行时间：0.029785s][吞吐率：33.57req/s] [内存消耗：790.55kb] [文件加载：31]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [2]strpos() expects parameter 1 to be string, array given[D:\code_dir\old_island\thinkphp\library\think\Route.php:1489]
+[ log ] 2018-08-18 21:57:39 错误文件：D:\code_dir\old_island\thinkphp\library\think\Route.php 错误行数：1489 错误信息：strpos() expects parameter 1 to be string, array given
+---------------------------------------------------------------
+[ 2018-08-18T21:58:23+08:00 ] 127.0.0.1 POST /save/user_info
+[ info ] old_island.com/save/user_info [运行时间：0.036079s][吞吐率：27.72req/s] [内存消耗：790.30kb] [文件加载：31]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [2]strpos() expects parameter 1 to be string, array given[D:\code_dir\old_island\thinkphp\library\think\Route.php:1489]
+[ log ] 2018-08-18 21:58:23 错误文件：D:\code_dir\old_island\thinkphp\library\think\Route.php 错误行数：1489 错误信息：strpos() expects parameter 1 to be string, array given
+---------------------------------------------------------------
+[ 2018-08-18T21:58:42+08:00 ] 127.0.0.1 POST /save/user_info
+[ info ] old_island.com/save/user_info [运行时间：0.027321s][吞吐率：36.60req/s] [内存消耗：790.55kb] [文件加载：31]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [2]strpos() expects parameter 1 to be string, array given[D:\code_dir\old_island\thinkphp\library\think\Route.php:1489]
+[ log ] 2018-08-18 21:58:42 错误文件：D:\code_dir\old_island\thinkphp\library\think\Route.php 错误行数：1489 错误信息：strpos() expects parameter 1 to be string, array given
+---------------------------------------------------------------
+[ 2018-08-18T22:02:26+08:00 ] 127.0.0.1 POST /save/user_info
+[ info ] old_island.com/save/user_info [运行时间：0.310036s][吞吐率：3.23req/s] [内存消耗：2,148.34kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'saveInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa15cafd3feadd6e2/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/62621',
+  'origin' => 'http://127.0.0.1:60040',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '309',
+  'connection' => 'close',
+  'host' => 'old_island.com',
+)
+[ info ] [ PARAM ] array (
+  '/save/user_info' => '',
+  'token' => '070fc03e16871cfaaf580daeabfe52fe',
+  'userinfo' => 
+  array (
+    'nickName' => '尘缘未央',
+    'gender' => 1,
+    'language' => 'zh_CN',
+    'city' => '邯郸',
+    'province' => '河北',
+    'country' => '中国',
+    'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/W4FmdTMO3hB4Vx1pjn8ck0l6iaN5chKGJnFZbqRiazyhH1AHAaumvBVGibuXn9s2Y7wcRhvUWZqPcqCAwCIMebWwQ/132',
+  ),
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->saveInfo[ D:\code_dir\old_island\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002154s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.226650s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000712s ]
+[ error ] [0]数据表字段不存在:[language][D:\code_dir\old_island\thinkphp\library\think\db\Builder.php:111]
+[ log ] 2018-08-18 22:02:26 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：111 错误信息：fields not exists:[language]
+---------------------------------------------------------------
+[ 2018-08-18T22:02:39+08:00 ] 127.0.0.1 POST /save/user_info
+[ info ] old_island.com/save/user_info [运行时间：0.134701s][吞吐率：7.42req/s] [内存消耗：2,148.59kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'saveInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa15cafd3feadd6e2/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/62621',
+  'origin' => 'http://127.0.0.1:60040',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '309',
+  'connection' => 'close',
+  'host' => 'old_island.com',
+)
+[ info ] [ PARAM ] array (
+  '/save/user_info' => '',
+  'token' => '070fc03e16871cfaaf580daeabfe52fe',
+  'userinfo' => 
+  array (
+    'nickName' => '尘缘未央',
+    'gender' => 1,
+    'language' => 'zh_CN',
+    'city' => '邯郸',
+    'province' => '河北',
+    'country' => '中国',
+    'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/W4FmdTMO3hB4Vx1pjn8ck0l6iaN5chKGJnFZbqRiazyhH1AHAaumvBVGibuXn9s2Y7wcRhvUWZqPcqCAwCIMebWwQ/132',
+  ),
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->saveInfo[ D:\code_dir\old_island\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001801s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.059276s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001526s ]
+[ error ] [0]数据表字段不存在:[language][D:\code_dir\old_island\thinkphp\library\think\db\Builder.php:111]
+[ log ] 2018-08-18 22:02:39 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：111 错误信息：fields not exists:[language]
+---------------------------------------------------------------
+[ 2018-08-18T22:07:06+08:00 ] 127.0.0.1 POST /save/user_info
+[ info ] old_island.com/save/user_info [运行时间：0.121219s][吞吐率：8.25req/s] [内存消耗：2,150.72kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'saveInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa15cafd3feadd6e2/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/62621',
+  'origin' => 'http://127.0.0.1:60040',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '309',
+  'connection' => 'close',
+  'host' => 'old_island.com',
+)
+[ info ] [ PARAM ] array (
+  '/save/user_info' => '',
+  'token' => '070fc03e16871cfaaf580daeabfe52fe',
+  'userinfo' => 
+  array (
+    'nickName' => '尘缘未央',
+    'gender' => 1,
+    'language' => 'zh_CN',
+    'city' => '邯郸',
+    'province' => '河北',
+    'country' => '中国',
+    'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/W4FmdTMO3hB4Vx1pjn8ck0l6iaN5chKGJnFZbqRiazyhH1AHAaumvBVGibuXn9s2Y7wcRhvUWZqPcqCAwCIMebWwQ/132',
+  ),
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->saveInfo[ D:\code_dir\old_island\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001805s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.054638s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000857s ]
+[ error ] [8]Undefined property: app\common\validate\BaseValidate::$sigleRole[D:\code_dir\old_island\application\common\validate\BaseValidate.php:61]
+[ log ] 2018-08-18 22:07:06 错误文件：D:\code_dir\old_island\application\common\validate\BaseValidate.php 错误行数：61 错误信息：Undefined property: app\common\validate\BaseValidate::$sigleRole
+---------------------------------------------------------------
+[ 2018-08-18T22:10:43+08:00 ] 127.0.0.1 POST /save/user_info
+[ info ] old_island.com/save/user_info [运行时间：0.129545s][吞吐率：7.72req/s] [内存消耗：2,150.72kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'saveInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa15cafd3feadd6e2/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/62621',
+  'origin' => 'http://127.0.0.1:60040',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '309',
+  'connection' => 'close',
+  'host' => 'old_island.com',
+)
+[ info ] [ PARAM ] array (
+  '/save/user_info' => '',
+  'token' => '070fc03e16871cfaaf580daeabfe52fe',
+  'userinfo' => 
+  array (
+    'nickName' => '尘缘未央',
+    'gender' => 1,
+    'language' => 'zh_CN',
+    'city' => '邯郸',
+    'province' => '河北',
+    'country' => '中国',
+    'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/W4FmdTMO3hB4Vx1pjn8ck0l6iaN5chKGJnFZbqRiazyhH1AHAaumvBVGibuXn9s2Y7wcRhvUWZqPcqCAwCIMebWwQ/132',
+  ),
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->saveInfo[ D:\code_dir\old_island\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002064s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.045382s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000945s ]
+[ error ] [8]Undefined property: app\common\validate\BaseValidate::$sigleRole[D:\code_dir\old_island\application\common\validate\BaseValidate.php:61]
+[ log ] 2018-08-18 22:10:43 错误文件：D:\code_dir\old_island\application\common\validate\BaseValidate.php 错误行数：61 错误信息：Undefined property: app\common\validate\BaseValidate::$sigleRole

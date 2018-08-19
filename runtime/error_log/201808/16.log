@@ -1,0 +1,175 @@
+---------------------------------------------------------------
+[ 2018-08-16T20:45:52+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004123s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.042017s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.041458s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.033501s ]
+[ error ] [8]未定义数组下标: 0
+[ log ] 2018-08-16 20:45:52 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：319 错误信息：Undefined offset: 0
+---------------------------------------------------------------
+[ 2018-08-16T20:48:39+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002446s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.071104s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022958s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.022035s ]
+[ error ] [8]未定义数组下标: 0
+[ log ] 2018-08-16 20:48:39 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：319 错误信息：Undefined offset: 0
+---------------------------------------------------------------
+[ 2018-08-16T20:52:24+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002648s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.174568s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.029148s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.021574s ]
+[ error ] [8]未定义数组下标: 0
+[ log ] 2018-08-16 20:52:24 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：319 错误信息：Undefined offset: 0
+---------------------------------------------------------------
+[ 2018-08-16T20:53:07+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003216s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039425s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.025505s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.030734s ]
+[ error ] [8]未定义数组下标: 0
+[ log ] 2018-08-16 20:53:07 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：319 错误信息：Undefined offset: 0
+---------------------------------------------------------------
+[ 2018-08-16T20:53:07+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ error ] [1]Uncaught Error: Call to a member function send() on null in D:\code_dir\old_island\thinkphp\library\think\Error.php:52
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\ErrorException))
+#1 {main}
+  thrown
+[ log ] 2018-08-16 20:53:07 错误文件：D:\code_dir\old_island\thinkphp\library\think\Error.php 错误行数：52 错误信息：Uncaught Error: Call to a member function send() on null in D:\code_dir\old_island\thinkphp\library\think\Error.php:52
+Stack trace:
+#0 [internal function]: think\Error::appException(Object(think\exception\ErrorException))
+#1 {main}
+  thrown
+---------------------------------------------------------------
+[ 2018-08-16T20:53:32+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003352s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.055589s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.027183s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.021694s ]
+[ error ] [8]未定义数组下标: 0
+[ log ] 2018-08-16 20:53:32 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：319 错误信息：Undefined offset: 0
+---------------------------------------------------------------
+[ 2018-08-16T20:54:20+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.167054s][吞吐率：5.99req/s] [内存消耗：1,943.30kb] [文件加载：52]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'f66f6dda-c487-4f75-ace1-8f0c7310d134',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001838s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.062613s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.023831s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.020830s ]
+[ error ] [8]未定义数组下标: 0[D:\code_dir\old_island\thinkphp\library\think\db\Builder.php:319]
+[ log ] 2018-08-16 20:54:20 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：319 错误信息：Undefined offset: 0
+---------------------------------------------------------------
+[ 2018-08-16T23:26:04+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.135605s][吞吐率：7.37req/s] [内存消耗：2,150.54kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '3aa943ab-d291-41e3-9005-11ed5f7936dd',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002232s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039464s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.030937s ]
+[ error ] [0]查询表达式错误:!=[D:\code_dir\old_island\thinkphp\library\think\db\Builder.php:343]
+[ log ] 2018-08-16 23:26:04 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：343 错误信息：where express error:!=
+---------------------------------------------------------------
+[ 2018-08-16T23:27:08+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.258802s][吞吐率：3.86req/s] [内存消耗：2,150.79kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '7edcf3fb-f5c5-45db-8588-3ac1197d392a',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001565s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.096147s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.105439s ]
+[ error ] [0]查询表达式错误:!=[D:\code_dir\old_island\thinkphp\library\think\db\Builder.php:343]
+[ log ] 2018-08-16 23:27:08 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Builder.php 错误行数：343 错误信息：where express error:!=

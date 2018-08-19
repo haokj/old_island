@@ -1,0 +1,53 @@
+---------------------------------------------------------------
+[ 2018-08-14T20:37:58+08:00 ] 127.0.0.1 GET /index.php/index/index/index
+[ error ] [8]Array to string conversion
+[ log ] 2018-08-14 20:37:58 错误文件：D:\code_dir\old_island\application\index\controller\Index.php 错误行数：18 错误信息：Array to string conversion
+---------------------------------------------------------------
+[ 2018-08-14T20:51:36+08:00 ] 127.0.0.1 GET /index.php/index/index/index/index/0
+[ error ] [64]Access level to app\common\validate\IntegerValidate::$message must be public (as in class app\common\validate\BaseValidate)
+[ log ] 2018-08-14 20:51:36 错误文件：D:\code_dir\old_island\application\common\validate\IntegerValidate.php 错误行数：8 错误信息：Access level to app\common\validate\IntegerValidate::$message must be public (as in class app\common\validate\BaseValidate)
+---------------------------------------------------------------
+[ 2018-08-14T20:52:55+08:00 ] 127.0.0.1 GET /index.php/index/index/index/index/0
+[ error ] [2]array_merge(): Argument #1 is not an array
+[ log ] 2018-08-14 20:52:55 错误文件：D:\code_dir\old_island\thinkphp\library\think\Validate.php 错误行数：113 错误信息：array_merge(): Argument #1 is not an array
+---------------------------------------------------------------
+[ 2018-08-14T20:56:01+08:00 ] 127.0.0.1 GET /index.php/index/index/index/index/0
+[ error ] [2]array_merge(): Argument #1 is not an array
+[ log ] 2018-08-14 20:56:01 错误文件：D:\code_dir\old_island\thinkphp\library\think\Validate.php 错误行数：113 错误信息：array_merge(): Argument #1 is not an array
+---------------------------------------------------------------
+[ 2018-08-14T21:04:54+08:00 ] 127.0.0.1 GET /index.php/index/index/index/index/
+[ error ] [2]implode(): Invalid arguments passed
+[ log ] 2018-08-14 21:04:54 错误文件：D:\code_dir\old_island\application\common\validate\BaseValidate.php 错误行数：29 错误信息：implode(): Invalid arguments passed
+---------------------------------------------------------------
+[ 2018-08-14T21:32:07+08:00 ] 127.0.0.1 GET /index.php/index/index/index/index/1
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Validate' does not have a method 'checkInt'
+[ log ] 2018-08-14 21:32:07 错误文件：D:\code_dir\old_island\thinkphp\library\think\Validate.php 错误行数：408 错误信息：call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Validate' does not have a method 'checkInt'
+---------------------------------------------------------------
+[ 2018-08-14T21:33:41+08:00 ] 127.0.0.1 GET /index.php/index/index/index/index/1
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Validate' does not have a method 'checkInt'
+[ log ] 2018-08-14 21:33:41 错误文件：D:\code_dir\old_island\thinkphp\library\think\Validate.php 错误行数：408 错误信息：call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Validate' does not have a method 'checkInt'
+---------------------------------------------------------------
+[ 2018-08-14T21:41:16+08:00 ] 127.0.0.1 GET /index.php/index/index/index/index/1
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Validate' does not have a method 'checkInt'
+[ log ] 2018-08-14 21:41:16 错误文件：D:\code_dir\old_island\thinkphp\library\think\Validate.php 错误行数：408 错误信息：call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Validate' does not have a method 'checkInt'
+---------------------------------------------------------------
+[ 2018-08-14T23:01:30+08:00 ] 127.0.0.1 GET /classic/latest
+[ error ] [0]method not exist:think\db\Query->get
+[ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: error_code in D:\code_dir\old_island\application\common\exception\Http.php:39
+Stack trace:
+#0 D:\code_dir\old_island\application\common\exception\Http.php(39): think\Error::appError(8, 'Undefined varia...', 'D:\\code_dir\\old...', 39, Array)
+#1 D:\code_dir\old_island\thinkphp\library\think\Error.php(52): app\common\exception\Http->render(Object(think\Exception))
+#2 [internal function]: think\Error::appException(Object(think\Exception))
+#3 {main}
+  thrown
+[ log ] 2018-08-14 23:01:30 错误文件：D:\code_dir\old_island\application\common\exception\Http.php 错误行数：39 错误信息：Uncaught think\exception\ErrorException: Undefined variable: error_code in D:\code_dir\old_island\application\common\exception\Http.php:39
+Stack trace:
+#0 D:\code_dir\old_island\application\common\exception\Http.php(39): think\Error::appError(8, 'Undefined varia...', 'D:\\code_dir\\old...', 39, Array)
+#1 D:\code_dir\old_island\thinkphp\library\think\Error.php(52): app\common\exception\Http->render(Object(think\Exception))
+#2 [internal function]: think\Error::appException(Object(think\Exception))
+#3 {main}
+  thrown
+---------------------------------------------------------------
+[ 2018-08-14T23:03:53+08:00 ] 127.0.0.1 GET /classic/latest
+[ error ] [0]method not exist:think\db\Query->get
+[ log ] 2018-08-14 23:03:53 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：96 错误信息：method not exist:think\db\Query->get

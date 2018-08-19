@@ -1,0 +1,2378 @@
+---------------------------------------------------------------
+[ 2018-08-16T20:29:36+08:00 ] 127.0.0.1 GET /login/login?code=023mxoeP1OV7v21JNneP1hWieP1mxoe7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016016s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.157064s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'ojV8R0ag4h9LyCwNVP3-7CSm-2Ao' LIMIT 1 [ RunTime:0.000978s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:35:34+08:00 ] 127.0.0.1 GET /classic/latest
+[ error ] [401]
+---------------------------------------------------------------
+[ 2018-08-16T20:36:09+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003620s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.131104s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.032022s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000872s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:56:07+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.148058s][吞吐率：6.75req/s] [内存消耗：1,888.21kb] [文件加载：47]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '15cb9d6d-2244-4c19-b075-bf35d65a6334',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001546s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.060882s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.020933s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:57:15+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.139968s][吞吐率：7.14req/s] [内存消耗：1,889.67kb] [文件加载：47]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '8829b59b-f592-4415-8ba9-a3b821b7e747',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001768s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.051591s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.027984s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:58:12+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.161587s][吞吐率：6.19req/s] [内存消耗：1,889.67kb] [文件加载：47]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'd934ddb0-67d9-471c-8257-f80f9e4dd377',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001542s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.074078s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022306s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:58:33+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.332438s][吞吐率：3.01req/s] [内存消耗：1,954.41kb] [文件加载：51]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '81897d6f-542e-4591-a764-83b5ead9b7ba',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011416s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.202115s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.029605s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.027114s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:59:43+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.172656s][吞吐率：5.79req/s] [内存消耗：1,954.48kb] [文件加载：51]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '40b6b4e3-9083-4eb4-92f6-2749c3427323',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001527s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.067301s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.020508s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.020272s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:05:31+08:00 ] 127.0.0.1 GET /classic/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.030797s][吞吐率：32.47req/s] [内存消耗：824.33kb] [文件加载：32]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'classic',
+    1 => 'next',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '7b415935-6f5a-4a27-beae-be9c80aa700f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:05:42+08:00 ] 127.0.0.1 GET /classic/1/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/1/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.155003s][吞吐率：6.45req/s] [内存消耗：1,932.21kb] [文件加载：48]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '62ff9db0-271a-4e12-a77d-11ed2a596ecf',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/1/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002323s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.096437s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:10:14+08:00 ] 127.0.0.1 GET /classic/1/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/1/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.188821s][吞吐率：5.30req/s] [内存消耗：2,128.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'ba92886f-4019-420f-a9b3-6d6976a91488',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/1/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001631s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.115595s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:10:20+08:00 ] 127.0.0.1 GET /classic/1.1/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/1.1/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.195008s][吞吐率：5.13req/s] [内存消耗：2,172.25kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'aa5c0e9f-ad54-4bc5-a9a1-deb31a93ef70',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/1_1/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '1.1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001661s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.134620s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000646s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T21:10:59+08:00 ] 127.0.0.1 GET /classic/1.1/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/1.1/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.111626s][吞吐率：8.96req/s] [内存消耗：2,167.65kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '6e46e5e1-2963-4bcf-9907-89b8e5ba1a1e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/1_1/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '1.1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001337s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.047527s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000661s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T21:11:13+08:00 ] 127.0.0.1 GET /classic/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.028184s][吞吐率：35.48req/s] [内存消耗：819.67kb] [文件加载：32]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'classic',
+    1 => 'next',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '2dc067bc-7df5-4492-affc-b17f7d1ade75',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:22:37+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.160892s][吞吐率：6.22req/s] [内存消耗：1,929.29kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '9192a8cb-bd65-4991-bf28-04a642af7a6d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002211s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.037305s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.031007s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.028801s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:22:59+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.186586s][吞吐率：5.36req/s] [内存消耗：1,947.31kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '709cc472-3f33-4d99-b421-774737cb6c72',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001612s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.090233s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.028762s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.001188s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:24:45+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.208204s][吞吐率：4.80req/s] [内存消耗：1,917.37kb] [文件加载：49]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '04a1e72b-3bc8-4e5b-a509-856b773d6ab2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.123394s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.021823s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000606s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:26:08+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.135318s][吞吐率：7.39req/s] [内存消耗：1,946.97kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'f216a486-a0c0-46d5-a4dc-e0d5236c69fa',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011272s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.045456s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.021310s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000876s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:26:58+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.128521s][吞吐率：7.78req/s] [内存消耗：1,947.07kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '585e1f5e-5ccb-4fcc-b5c1-150720eb217e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001918s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032359s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022703s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:28:28+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.146293s][吞吐率：6.84req/s] [内存消耗：1,947.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'bd58cf8a-6f07-418a-9016-5b67d5b031c0',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001594s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.051824s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.029449s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:28:41+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.226748s][吞吐率：4.41req/s] [内存消耗：1,917.41kb] [文件加载：49]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '9238b989-9f1b-4793-a8fa-7063d54fa3b1',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001525s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.136821s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.025116s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000864s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:29:35+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.132557s][吞吐率：7.54req/s] [内存消耗：1,947.13kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '10679af1-3f6c-4d32-8b51-a0d72a1d29ea',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001998s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.038937s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.031405s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:29:48+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.118700s][吞吐率：8.42req/s] [内存消耗：1,947.13kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '710ed504-bbd9-4fff-b9df-71da2bd4fb77',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003457s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032709s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022993s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:30:31+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.187510s][吞吐率：5.33req/s] [内存消耗：1,947.13kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'e597464b-26c5-43ae-8dc8-55d203df12a6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001902s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.096469s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.028933s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000815s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:32:39+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.198789s][吞吐率：5.03req/s] [内存消耗：1,947.03kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '8c727a3a-89a9-4cc8-80fb-58fca6651b90',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001478s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.106353s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.028537s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:32:58+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.108470s][吞吐率：9.22req/s] [内存消耗：1,947.23kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'd0b14c48-4fcf-41d1-95fe-d04eb855c7cb',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001473s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.037145s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022369s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000724s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:33:05+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.334074s][吞吐率：2.99req/s] [内存消耗：1,889.89kb] [文件加载：47]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'ede35038-66dc-4953-9554-931b1faf479f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001662s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.240865s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.033932s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:39:46+08:00 ] 127.0.0.1 GET /classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/latest?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.163251s][吞吐率：6.13req/s] [内存消耗：1,957.41kb] [文件加载：51]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'new',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '8d4aa79d-8728-4949-a882-9a0e11a2440a',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/latest' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->new[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002141s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.036971s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.031277s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.029606s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:46:54+08:00 ] 127.0.0.1 GET /classic/2/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/2/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.168527s][吞吐率：5.93req/s] [内存消耗：2,156.34kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'ae3211c5-ab3b-4a10-ad42-acb00a662059',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/2/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002171s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.041378s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.023440s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 1 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.030194s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 8  AND `type` = 200 LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:47:06+08:00 ] 127.0.0.1 GET /classic/1/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/1/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.147158s][吞吐率：6.80req/s] [内存消耗：2,182.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '5f7ec97b-8f7f-4b75-8f09-bfd0540ed990',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/1/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001566s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.059845s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.025336s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 0 LIMIT 1 [ RunTime:0.000752s ]
+[ error ] [404][D:\code_dir\old_island\application\index\controller\Journal.php:38]
+---------------------------------------------------------------
+[ 2018-08-16T21:47:15+08:00 ] 127.0.0.1 GET /classic/9/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/9/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.138984s][吞吐率：7.20req/s] [内存消耗：2,156.41kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '25cdd03f-7133-4d99-8b31-4bdc4771a39d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/9/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '9',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001631s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.037094s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022015s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 8 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.021273s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:48:35+08:00 ] 127.0.0.1 GET /classic/4/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/4/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.205610s][吞吐率：4.86req/s] [内存消耗：2,156.40kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '9d677670-15df-42f2-a92b-d75ad41c693e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/4/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '4',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001435s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.102248s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.021949s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 3 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.020815s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 6  AND `type` = 200 LIMIT 1 [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:49:30+08:00 ] 127.0.0.1 GET /classic/4/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/4/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.165098s][吞吐率：6.06req/s] [内存消耗：2,156.40kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '3aa6db93-91da-409b-849a-5f2c6ea1a736',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/4/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '4',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001438s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.048810s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.025248s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 3 LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.023808s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 6  AND `type` = 200 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:56:57+08:00 ] 127.0.0.1 GET /classic/4/next?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/4/next?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.167483s][吞吐率：5.97req/s] [内存消耗：2,160.27kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'next',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'c924b5e0-d75b-4833-b0e8-559997166c4a',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/4/next' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '4',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->next[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002183s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032585s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.032471s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 5 LIMIT 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.032591s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 4  AND `type` = 200 LIMIT 1 [ RunTime:0.000811s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:57:12+08:00 ] 127.0.0.1 GET /classic/4/previous?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/4/previous?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.219473s][吞吐率：4.56req/s] [内存消耗：2,160.34kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'previous',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '86c35439-1c88-483c-a3ab-c700966b3790',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/4/previous' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '4',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->previous[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001375s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.121815s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.023322s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 3 LIMIT 1 [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.020607s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 6  AND `type` = 200 LIMIT 1 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:57:17+08:00 ] 127.0.0.1 GET /classic/0/previous?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/0/previous?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.126678s][吞吐率：7.89req/s] [内存消耗：2,171.88kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'previous',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '9cf0d397-7508-4e25-81a8-0f63de6563e0',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/0/previous' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->previous[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001529s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.078237s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000637s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T21:57:26+08:00 ] 127.0.0.1 GET /classic//previous?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic//previous?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.088908s][吞吐率：11.25req/s] [内存消耗：2,171.88kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'previous',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'd6c6cdc6-7938-4022-b344-40bf31138e18',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/previous' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->previous[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001460s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031580s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000931s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T21:57:34+08:00 ] 127.0.0.1 GET /classic/previous?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/previous?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.025021s][吞吐率：39.97req/s] [内存消耗：821.53kb] [文件加载：32]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'classic',
+    1 => 'previous',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'fba39564-3189-4416-b4f6-31326d3093dd',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/previous' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:57:46+08:00 ] 127.0.0.1 GET /classic/2/previous?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/2/previous?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.180941s][吞吐率：5.53req/s] [内存消耗：2,160.28kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'previous',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '29fa31f4-246f-4a1b-8710-f4586efd1ace',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/2/previous' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->previous[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002731s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.073692s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022649s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 1 LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.021773s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 8  AND `type` = 200 LIMIT 1 [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:59:38+08:00 ] 127.0.0.1 GET /classic/2/previous?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/2/previous?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.147124s][吞吐率：6.80req/s] [内存消耗：2,160.28kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'previous',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '391a79a6-0614-4a44-b026-0c427ff4449f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/2/previous' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'index' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->previous[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001417s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039414s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022032s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `index` = 1 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.021369s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 8  AND `type` = 200 LIMIT 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:12:23+08:00 ] 127.0.0.1 GET /classic/1/2?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/1/2?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.106009s][吞吐率：9.43req/s] [内存消耗：2,174.13kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'c317291f-2f2b-4331-952e-deb790b17cb2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/1/2' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'type' => '1',
+  'id' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002297s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.035904s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000878s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T22:12:29+08:00 ] 127.0.0.1 GET /classic/1/100?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/1/100?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.165935s][吞吐率：6.03req/s] [内存消耗：2,174.13kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'bf99b6ba-3b75-4d2d-bbc4-73c927babed5',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/1/100' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'type' => '1',
+  'id' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010698s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.098555s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001005s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T22:12:39+08:00 ] 127.0.0.1 GET /classic/100/100?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/100/100?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.144802s][吞吐率：6.91req/s] [内存消耗：2,134.90kb] [文件加载：51]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'beee08c9-c014-4ca0-a8ba-197a7c047eb1',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/100/100' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'type' => '100',
+  'id' => '100',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001566s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.088300s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000720s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:12:43+08:00 ] 127.0.0.1 GET /classic/100/1.1?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/100/1.1?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.127565s][吞吐率：7.84req/s] [内存消耗：2,174.15kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'b925b1bf-6e2e-4162-9b30-88ff5340d3a3',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/100/1_1' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'type' => '100',
+  'id' => '1.1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001771s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.064568s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000658s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T22:32:39+08:00 ] 127.0.0.1 GET /classic/100/1?token=98a97c4aa83be40825e9cf1f377a9e51
+[ info ] old_island.com/classic/100/1?token=98a97c4aa83be40825e9cf1f377a9e51 [运行时间：0.039282s][吞吐率：25.46req/s] [内存消耗：991.39kb] [文件加载：41]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'c2a1ebd3-cd6c-4ef2-8473-704bb9bd8316',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/100/1' => '',
+  'token' => '98a97c4aa83be40825e9cf1f377a9e51',
+  'type' => '100',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][D:\code_dir\old_island\application\index\controller\BaseController.php:31]
+---------------------------------------------------------------
+[ 2018-08-16T22:32:45+08:00 ] 127.0.0.1 GET /login/login?code=023Gp7ni2deKdH0LWqmi2uFqni2Gp7nm
+[ info ] old_island.com/login/login?code=023Gp7ni2deKdH0LWqmi2uFqni2Gp7nm [运行时间：0.791677s][吞吐率：1.26req/s] [内存消耗：2,145.25kb] [文件加载：52]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxa15cafd3feadd6e2/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/54857',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'old_island.com',
+)
+[ info ] [ PARAM ] array (
+  '/login/login' => '',
+  'code' => '023Gp7ni2deKdH0LWqmi2uFqni2Gp7nm',
+)
+[ info ] [ RUN ] app\index\controller\Login->Login[ D:\code_dir\old_island\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001680s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.043948s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'ojV8R0ag4h9LyCwNVP3-7CSm-2Ao' LIMIT 1 [ RunTime:0.001747s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:32:50+08:00 ] 127.0.0.1 GET /classic/100/1?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/100/1?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.223569s][吞吐率：4.47req/s] [内存消耗：2,165.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'f540fb23-dc7d-47ce-936d-a21326f480b0',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/100/1' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '100',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001560s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.115508s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.026523s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.025422s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:32:59+08:00 ] 127.0.0.1 GET /classic/200/1?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/200/1?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.170430s][吞吐率：5.87req/s] [内存消耗：2,192.73kb] [文件加载：58]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'a74d5600-9e3e-4e7c-8613-e0cfb9a9087a',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/200/1' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '200',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001488s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.089218s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022521s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `id` = 1  AND `type` = 200 LIMIT 1 [ RunTime:0.000642s ]
+[ error ] [404][D:\code_dir\old_island\application\index\controller\Journal.php:69]
+---------------------------------------------------------------
+[ 2018-08-16T22:37:59+08:00 ] 127.0.0.1 GET /classic/200/1?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/200/1?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.101918s][吞吐率：9.81req/s] [内存消耗：1,886.05kb] [文件加载：46]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '60bfa57f-eafd-4771-924f-c3035cc94ab7',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/200/1' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '200',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001794s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033793s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000815s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:38:08+08:00 ] 127.0.0.1 GET /classic/200/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/200/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.119192s][吞吐率：8.39req/s] [内存消耗：1,886.08kb] [文件加载：46]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '7c228b52-0fec-4a90-8a7b-598eed6560b6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/200/1/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '200',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001477s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.070978s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:39:29+08:00 ] 127.0.0.1 GET /classic/200/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/200/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.099061s][吞吐率：10.09req/s] [内存消耗：1,886.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favor',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'e8c038f1-7f99-43f6-adb9-f9940549a4fa',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/200/1/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '200',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favor[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002225s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034948s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000864s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:39:34+08:00 ] 127.0.0.1 GET /classic/200/1?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/200/1?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.127025s][吞吐率：7.87req/s] [内存消耗：1,886.05kb] [文件加载：46]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'd66579ff-d6cc-422e-8625-4a477774e4ac',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/200/1' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '200',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010937s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.071207s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:59:09+08:00 ] 127.0.0.1 GET /classic/200/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/200/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.141544s][吞吐率：7.06req/s] [内存消耗：2,198.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favor',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '342f76a8-c334-4157-818f-23a9c9979477',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/200/1/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '200',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favor[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002415s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039227s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.034082s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `id` = 1  AND `type` = 200 LIMIT 1 [ RunTime:0.000852s ]
+[ error ] [404][D:\code_dir\old_island\application\index\model\Journal.php:63]
+---------------------------------------------------------------
+[ 2018-08-16T22:59:21+08:00 ] 127.0.0.1 GET /classic/100/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/100/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.155937s][吞吐率：6.41req/s] [内存消耗：2,171.28kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favor',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '2086d282-fea1-45bf-9db5-07d3726c326b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/100/1/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '100',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favor[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010586s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.026812s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022821s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.028673s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:59:28+08:00 ] 127.0.0.1 GET /classic/100/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/100/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.185047s][吞吐率：5.40req/s] [内存消耗：2,171.28kb] [文件加载：54]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favor',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '0a236a4b-c86c-4a07-a9fb-e9af4dfc9c5d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/100/1/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '100',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favor[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001509s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.085360s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022659s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` WHERE  `id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.021115s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 100 LIMIT 1 [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2018-08-16T22:59:35+08:00 ] 127.0.0.1 GET /classic/400/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/400/1/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.246159s][吞吐率：4.06req/s] [内存消耗：2,170.52kb] [文件加载：55]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favor',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'a148a300-11fa-47cc-baab-4a8f333143a1',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/400/1/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '400',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favor[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001631s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.081050s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_praise` [ RunTime:0.020677s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_praise` WHERE  `art_id` = 1  AND `type` = 400 LIMIT 1 [ RunTime:0.049060s ]
+[ sql ] [ SQL ] SELECT * FROM `user_praise` WHERE  `user_id` = 1  AND `art_id` = 1  AND `type` = 400 LIMIT 1 [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:08:37+08:00 ] 127.0.0.1 GET /classic//favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic//favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.123782s][吞吐率：8.08req/s] [内存消耗：2,179.80kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '7d8db0d8-5667-47a1-93b4-f3dc5625cb73',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '',
+  'id' => 'favor',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002121s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.059322s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000830s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T23:08:42+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.137399s][吞吐率：7.28req/s] [内存消耗：1,888.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '44d6c841-fb52-4acf-aa64-65999c8f3162',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001419s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.083580s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:08:52+08:00 ] 127.0.0.1 GET /classic/5/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/5/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.148191s][吞吐率：6.75req/s] [内存消耗：2,179.83kb] [文件加载：57]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'detail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '4d040f6a-2e5e-4e89-9778-697d6739026d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/5/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+  'type' => '5',
+  'id' => 'favor',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->detail[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001545s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.096288s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001133s ]
+[ error ] [400][D:\code_dir\old_island\application\common\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2018-08-16T23:27:35+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.144069s][吞吐率：6.94req/s] [内存消耗：2,045.98kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'd2bb2285-7fec-46f1-82e8-dde3b8c5f40c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010534s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.029165s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022843s ]
+[ sql ] [ SQL ] SELECT `a`.* FROM `journal` `a` INNER JOIN `user_praise` `b` ON `a`.`id`=`b`.`art_id` WHERE  `b`.`user_id` = 1  AND `b`.`type` <> 400 [ RunTime:0.028251s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:28:44+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.163507s][吞吐率：6.12req/s] [内存消耗：2,042.42kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '388ef2ed-1bbb-42e9-8ae8-39c77980ccd9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011480s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.050753s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.031490s ]
+[ sql ] [ SQL ] SELECT `a`.* FROM `journal` `a` INNER JOIN `user_praise` `b` ON `a`.`id`=`b`.`art_id` WHERE  `b`.`user_id` = 1  AND `b`.`type` <> 400 LIMIT 1,20 [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:29:17+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.085146s][吞吐率：11.74req/s] [内存消耗：2,040.13kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'd4099693-fd84-407b-a2fb-d99375210088',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027019s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000684s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:30:03+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.160928s][吞吐率：6.21req/s] [内存消耗：2,046.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => '29ac191c-0ecf-4131-a3c5-11301998503d',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001512s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.083141s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.023664s ]
+[ sql ] [ SQL ] SELECT `a`.* FROM `journal` `a` INNER JOIN `user_praise` `b` ON `a`.`id`=`b`.`art_id` WHERE  `b`.`user_id` = 1  AND `b`.`type` <> 400 LIMIT 0,20 [ RunTime:0.000957s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:30:56+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.181808s][吞吐率：5.50req/s] [内存消耗：2,165.68kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'f7580520-a530-4944-a37a-d1e4db1cc985',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001416s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.083823s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.023043s ]
+[ sql ] [ SQL ] SELECT `a`.* FROM `journal` `a` INNER JOIN `user_praise` `b` ON `a`.`id`=`b`.`art_id` WHERE  `b`.`user_id` = 1  AND `b`.`type` <> 400 LIMIT 0,20 [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:32:58+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.136349s][吞吐率：7.33req/s] [内存消耗：2,166.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'cc61f09a-f5f1-44b7-b672-9a7250482274',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002401s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033363s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.032794s ]
+[ sql ] [ SQL ] SELECT `a`.* FROM `journal` `a` INNER JOIN `user_praise` `b` ON `a`.`id`=`b`.`art_id` WHERE  `b`.`user_id` = 1  AND `b`.`type` <> 400 LIMIT 0,20 [ RunTime:0.000914s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:33:19+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.167521s][吞吐率：5.97req/s] [内存消耗：2,166.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'df0c7d35-46b0-449c-8c49-1534c3ef45d6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.069763s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.027343s ]
+[ sql ] [ SQL ] SELECT `a`.* FROM `journal` `a` INNER JOIN `user_praise` `b` ON `a`.`id`=`b`.`art_id` WHERE  `b`.`user_id` = 1  AND `b`.`type` <> 400 LIMIT 0,20 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:33:53+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.110811s][吞吐率：9.02req/s] [内存消耗：2,166.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'ac98668c-6378-4ed6-87e0-aaa2dc86ce68',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001221s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033064s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.024686s ]
+[ sql ] [ SQL ] SELECT `a`.* FROM `journal` `a` INNER JOIN `user_praise` `b` ON `a`.`id`=`b`.`art_id` WHERE  `b`.`user_id` = 1  AND `b`.`type` <> 400 LIMIT 0,20 [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2018-08-16T23:34:25+08:00 ] 127.0.0.1 GET /classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1
+[ info ] old_island.com/classic/favor?token=616c87f7cba4d12416b27ed3b2acd4d1 [运行时间：0.127968s][吞吐率：7.81req/s] [内存消耗：2,166.77kb] [文件加载：53]
+[ info ] [ LANG ] D:\code_dir\old_island\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'journal',
+    2 => 'favorList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'old_island.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'postman-token' => 'e452c53e-8cae-45ec-b220-8b68f3637e0e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/classic/favor' => '',
+  'token' => '616c87f7cba4d12416b27ed3b2acd4d1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Journal->favorList[ D:\code_dir\old_island\application\index\controller\Journal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001694s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039767s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.022813s ]
+[ sql ] [ SQL ] SELECT `a`.* FROM `journal` `a` INNER JOIN `user_praise` `b` ON `a`.`id`=`b`.`art_id` WHERE  `b`.`user_id` = 1  AND `b`.`type` <> 400 LIMIT 0,20 [ RunTime:0.000801s ]

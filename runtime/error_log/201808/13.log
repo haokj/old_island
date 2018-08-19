@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2018-08-13T22:40:03+08:00 ] 127.0.0.1 GET /index.php/index/index/index
+[ error ] [8]未定义变量: a
+[ log ] 2018-08-13 22:40:03 错误文件：D:\code_dir\old_island\application\index\controller\Index.php 错误行数：10 错误信息：Undefined variable: a

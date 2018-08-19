@@ -1,0 +1,35 @@
+---------------------------------------------------------------
+[ 2018-08-15T20:23:29+08:00 ] 127.0.0.1 GET /classic/latest
+[ sql ] [ DB ] CONNECT:[ UseTime:0.562438s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `journal` [ RunTime:0.115325s ]
+[ sql ] [ SQL ] SELECT * FROM `journal` ORDER BY `index` DESC LIMIT 1 [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[ 2018-08-15T22:21:22+08:00 ] 127.0.0.1 GET /login/login?code=555
+[ error ] [400]
+---------------------------------------------------------------
+[ 2018-08-15T22:21:37+08:00 ] 127.0.0.1 GET /login/login?code=555
+[ error ] [400]
+---------------------------------------------------------------
+[ 2018-08-15T22:37:09+08:00 ] 127.0.0.1 GET /login/login?code=033u4Q340fUzWC1WCj540HVI340u4Q3L
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003160s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031730s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'ojV8R0ag4h9LyCwNVP3-7CSm-2Ao' LIMIT 1 [ RunTime:0.001215s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openid`) VALUES ('ojV8R0ag4h9LyCwNVP3-7CSm-2Ao') [ RunTime:0.161892s ]
+---------------------------------------------------------------
+[ 2018-08-15T22:39:18+08:00 ] 127.0.0.1 GET /login/login?code=033eLT6y02sgUg1YSU3y0rT77y0eLT6x
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002285s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.090993s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'ojV8R0ag4h9LyCwNVP3-7CSm-2Ao' LIMIT 1 [ RunTime:0.000714s ]
+---------------------------------------------------------------
+[ 2018-08-15T22:56:28+08:00 ] 127.0.0.1 GET /login/check?token=
+[ error ] [400]
+---------------------------------------------------------------
+[ 2018-08-15T22:57:00+08:00 ] 127.0.0.1 GET /login/login?code=023LA5id1VhkEs0V0sgd1BDLhd1LA5i9
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003583s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.035703s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'ojV8R0ag4h9LyCwNVP3-7CSm-2Ao' LIMIT 1 [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2018-08-15T22:57:45+08:00 ] 127.0.0.1 GET /login/login?code=023n7fuq10usFp0GhIrq1rNluq1n7fu1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002240s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.099820s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'ojV8R0ag4h9LyCwNVP3-7CSm-2Ao' LIMIT 1 [ RunTime:0.000678s ]

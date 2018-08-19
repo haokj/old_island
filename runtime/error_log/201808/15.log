@@ -1,0 +1,35 @@
+---------------------------------------------------------------
+[ 2018-08-15T22:00:02+08:00 ] 127.0.0.1 GET /login/login?code=555
+[ error ] [2]array_key_exists() expects parameter 2 to be array, null given
+[ log ] 2018-08-15 22:00:02 错误文件：D:\code_dir\old_island\application\common\Token.php 错误行数：26 错误信息：array_key_exists() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2018-08-15T22:00:56+08:00 ] 127.0.0.1 GET /login/login?code=555
+[ error ] [2]array_key_exists() expects parameter 2 to be array, null given
+[ log ] 2018-08-15 22:00:56 错误文件：D:\code_dir\old_island\application\common\Token.php 错误行数：28 错误信息：array_key_exists() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2018-08-15T22:04:02+08:00 ] 127.0.0.1 GET /login/login?code=555
+[ error ] [2]array_key_exists() expects parameter 2 to be array, null given
+[ log ] 2018-08-15 22:04:02 错误文件：D:\code_dir\old_island\application\common\Token.php 错误行数：28 错误信息：array_key_exists() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2018-08-15T22:16:40+08:00 ] 127.0.0.1 GET /login/login?code=555
+[ error ] [2]array_key_exists() expects parameter 2 to be array, null given
+[ log ] 2018-08-15 22:16:40 错误文件：D:\code_dir\old_island\application\common\Token.php 错误行数：27 错误信息：array_key_exists() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2018-08-15T22:18:38+08:00 ] 127.0.0.1 GET /login/login?code=555
+[ error ] [400]
+[ log ] 2018-08-15 22:18:38 错误文件：D:\code_dir\old_island\application\common\Token.php 错误行数：27 错误信息：
+---------------------------------------------------------------
+[ 2018-08-15T22:19:20+08:00 ] 127.0.0.1 GET /login/login?code=555
+[ error ] [400]
+[ log ] 2018-08-15 22:19:20 错误文件：D:\code_dir\old_island\application\common\Token.php 错误行数：28 错误信息：
+---------------------------------------------------------------
+[ 2018-08-15T22:36:13+08:00 ] 127.0.0.1 GET /login/login?code=033oDfnt1IRcyc0Ennmt1UFwnt1oDfni
+[ error ] [0]method not exist:think\db\Query->get
+[ log ] 2018-08-15 22:36:13 错误文件：D:\code_dir\old_island\thinkphp\library\think\db\Query.php 错误行数：96 错误信息：method not exist:think\db\Query->get
+---------------------------------------------------------------
+[ 2018-08-15T22:38:10+08:00 ] 127.0.0.1 GET /login/login?code=023XOXFk2BURYE0jJLDk2lcWFk2XOXF-
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002734s ] mysql:host=127.0.0.1;port=3306;dbname=old_island;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.036053s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'ojV8R0ag4h9LyCwNVP3-7CSm-2Ao' LIMIT 1 [ RunTime:0.000856s ]
+[ error ] [0]类的属性不存在:app\index\model\User->id
+[ log ] 2018-08-15 22:38:10 错误文件：D:\code_dir\old_island\thinkphp\library\think\Model.php 错误行数：624 错误信息：property not exists:app\index\model\User->id
